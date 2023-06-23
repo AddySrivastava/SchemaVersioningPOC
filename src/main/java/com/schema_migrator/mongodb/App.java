@@ -23,14 +23,11 @@ import com.schema_migrator.migration.UserMigrationService;
 import com.schema_migrator.services.UserService;
 import io.javalin.Javalin;
 
-/**
- * Hello world!
- *
- */
+
 public class App {
     public static void main(String[] args) {
 
-        String uri = "mongodb+srv://admin:passwordone@replicaset.4xwip.mongodb.net/";
+        String uri = "MONGOURI";
 
         MongoClient mongoClient = null;
         MongoDatabase database;
