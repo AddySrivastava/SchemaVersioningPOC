@@ -30,7 +30,7 @@ import io.javalin.Javalin;
 public class App {
     public static void main(String[] args) {
 
-        String uri = "MONGO_URI";
+        String uri = "mongodb+srv://admin:passwordone@replicaset.4xwip.mongodb.net/";
 
         MongoClient mongoClient = null;
         MongoDatabase database;
