@@ -16,7 +16,7 @@ Part 2 - [Changing Database Schema with Zero Downtime — Part 2](https://medium
 
 ## Installation
 
-Install my-project with npm
+Install my-project with npm, In App.java replace **MONGO_URI** with your connection string, usage environement variables is recommended for actual implementation
 
 ```bash
   cd schema_migrator
