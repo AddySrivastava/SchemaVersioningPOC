@@ -1,6 +1,5 @@
 package com.schema_migrator.services;
 
-import java.util.Optional;
 
 import org.bson.json.JsonWriterSettings;
 import org.bson.types.ObjectId;
